@@ -1,0 +1,10 @@
+name = input("What is your name? ")
+
+if name == 'Jerry':
+    pass
+if name != 'Jerry':
+    portion = int(input("How many portions of soup would you like? "))
+    print("The total cost is: " + str(portion*5.90))
+
+print("Next please!")
+
